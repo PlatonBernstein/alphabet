@@ -3,8 +3,8 @@
 
 using namespace std;
 void a(array<string, 6>&s){
-    s[0]+="         ";
-    s[1]+="         ";
+    s[0]+="        ";
+    s[1]+="        ";
     s[2]+="   /\\   ";
     s[3]+="  /__\\  ";
     s[4]+=" /    \\ ";
