@@ -3,8 +3,8 @@
 
 using namespace std;
 void a(array<string, 6>&s){
-    s[0]+="         ";
-    s[1]+="         ";
+    s[0]+="        ";
+    s[1]+="        ";
     s[2]+="   /\\   ";
     s[3]+="  /__\\  ";
     s[4]+=" /    \\ ";
@@ -18,7 +18,14 @@ void b(array<string, 6> &s) {
     s[4] += "|      |";
     s[5] += "|\\_____/";
 }
-
+void y(array<string, 6>&s){
+    s[0]+="\\\\   // ";
+    s[1]+=" \\\\ //  ";
+    s[2]+="  |||   ";
+    s[3]+="  //    ";
+    s[4]+=" //     ";
+    s[5]+="//      ";
+}
 
 int main()
 {
@@ -27,6 +34,8 @@ int main()
     a(screen);
     b(screen);
     b(screen);
+	y(screen);
+    y(screen);
     for(int i = 0; i < 6; i++)
         cout << screen[i] << endl;
     return 0;
