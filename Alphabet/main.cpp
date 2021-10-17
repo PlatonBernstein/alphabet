@@ -66,6 +66,7 @@ void b(array<string, 6> &s) {
     s[4] += "|      |";
     s[5] += "|\\_____/";
 }
+<<<<<<< HEAD
 void a(array<string, 6>&s){
     s[0]+="        ";
     s[1]+="        ";
@@ -74,7 +75,14 @@ void a(array<string, 6>&s){
     s[4]+=" /    \\ ";
     s[5]+="||    ||";
 }
-
+void z(array<string, 6> &s) {
+    s[0] += "_____ ";
+    s[1] += "    / ";
+    s[2] += "   /  ";
+    s[3] += "  /   ";
+    s[4] += " /    ";
+    s[5] += "/____ ";
+}
 
 int main()
 {
@@ -97,6 +105,8 @@ int main()
     t(screen);
     w(screen);
     w(screen);
+    z(screen);
+    z(screen);
     for(int i = 0; i < 6; i++)
         cout << screen[i] << endl;
     return 0;
