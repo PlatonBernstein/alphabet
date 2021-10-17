@@ -2,6 +2,14 @@
 #include <array>
 
 using namespace std;
+void q(array<string, 6> &s) {
+    s[0] += "        ";
+    s[1] += "  ____  ";
+    s[2] += " /    \\ ";
+    s[3] += "|      |";
+    s[4] += "|      |";
+    s[5] += " \\____/\\";
+}
 void n(array<string, 6> &s) {
     s[0] += "        ";
     s[1] += "  ____  ";
@@ -48,7 +56,7 @@ void b(array<string, 6> &s) {
     s[2] += "|______ ";
     s[3] += "|      \\";
     s[4] += "|      |";
-    s[5] += "|\\_____/";
+    s[5] += " \\____/\\";
 }
 
 
@@ -67,6 +75,8 @@ int main()
     k(screen);
     n(screen);
     n(screen);
+    q(screen);
+    q(screen);
     for(int i = 0; i < 6; i++)
         cout << screen[i] << endl;
     return 0;
