@@ -66,6 +66,14 @@ void h(array<string, 6> &s) {
     s[4] += "|      |";
     s[5] += "|      |";
 }
+void f(array<string, 6>& s) {
+    s[0] += "       ";
+    s[1] += "   ___ ";
+    s[2] += "  |    ";
+    s[3] += "__|__  ";
+    s[4] += "  |    ";
+    s[5] += "  |    ";
+}
 void e(array<string, 6> &s) {
     s[0] += "        ";
     s[1] += " ______ ";
@@ -102,12 +110,12 @@ void a(array<string, 6> &s){
 
 int main()
 {
-
     array<string, 6> screen;
     a(screen);
     b(screen);
     c(screen);
     e(screen);
+    f(screen);
     h(screen);
     k(screen);
     n(screen);
