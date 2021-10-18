@@ -10,7 +10,7 @@ void z(array<string, 6> &s) {
     s[4] += " /    ";
     s[5] += "/____ ";
 }
-void y(array<string, 6>&s){
+void y(array<string, 6> &s){
     s[0]+="\\\\   // ";
     s[1]+=" \\\\ //  ";
     s[2]+="  |||   ";
@@ -74,6 +74,14 @@ void e(array<string, 6> &s) {
     s[4] += "\\       ";
     s[5] += " \\_____ ";
 }
+void c(array<string, 6> &s) {
+    s[0] += "       ";
+    s[1] += " _____ ";
+    s[2] += "/      ";
+    s[3] += "|      ";
+    s[4] += "|      ";
+    s[5] += "\\_____ ";
+}
 void b(array<string, 6> &s) {
     s[0] += "|       ";
     s[1] += "|       ";
@@ -82,7 +90,7 @@ void b(array<string, 6> &s) {
     s[4] += "|      |";
     s[5] += "|\\_____/";
 }
-void a(array<string, 6>&s){
+void a(array<string, 6> &s){
     s[0]+="        ";
     s[1]+="        ";
     s[2]+="   /\\   ";
@@ -91,30 +99,22 @@ void a(array<string, 6>&s){
     s[5]+="||    ||";
 }
 
+
 int main()
 {
+
     array<string, 6> screen;
     a(screen);
-    a(screen);
     b(screen);
-    b(screen);
-    e(screen);
+    c(screen);
     e(screen);
     h(screen);
-    h(screen);
-    k(screen);
     k(screen);
     n(screen);
-    n(screen);
-    q(screen);
     q(screen);
     t(screen);
-    t(screen);
     w(screen);
-    w(screen);
-	y(screen);
-    y(screen);
-    z(screen);
+	  y(screen);
     z(screen);
     for(int i = 0; i < 6; i++)
         cout << screen[i] << endl;
