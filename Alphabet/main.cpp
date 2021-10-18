@@ -18,6 +18,14 @@ void y(array<string, 6> &s){
     s[4]+=" //     ";
     s[5]+="//      ";
 }
+void x(array<string, 6>& s) {
+    s[0] += "\\    /  ";
+    s[1] += " \\  /   ";
+    s[2] += "  \\/    ";
+    s[3] += "  /\\    ";
+    s[4] += " /  \\   ";
+    s[5] += "/    \\  ";
+}
 void w(array<string, 6> &s) {
     s[0] += "        ";
     s[1] += "        ";
@@ -158,6 +166,7 @@ int main()
     t(screen);
     u(screen);
     w(screen);
+    x(screen);
 	  y(screen);
     z(screen);
     for(int i = 0; i < 6; i++)
