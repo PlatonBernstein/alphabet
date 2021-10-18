@@ -177,6 +177,14 @@ void e(array<string, 6> &s) {
     s[3] += "|______/";
     s[4] += "\\       ";
     s[5] += " \\_____ ";
+
+void d(array<string, 6> &s) {
+    s[0]+="     | ";
+    s[1]+="     | ";
+    s[2]+=" ____| ";
+    s[3]+="/    | ";
+    s[4]+="|    | ";
+    s[5]+="\\____/ ";
 }
 void c(array<string, 6> &s) {
     s[0] += "       ";
@@ -210,6 +218,7 @@ int main()
     a(screen);
     b(screen);
     c(screen);
+    d(screen);
     e(screen);
     f(screen);
     g(screen);
