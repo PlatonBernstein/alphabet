@@ -239,7 +239,7 @@ int main()
     v(screen);
     w(screen);
     x(screen);
-	  y(screen);
+    y(screen);
     z(screen);
     for(int i = 0; i < 6; i++)
         cout << screen[i] << endl;
