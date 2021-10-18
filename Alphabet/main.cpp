@@ -50,6 +50,14 @@ void n(array<string, 6> &s) {
     s[4] += "|      |";
     s[5] += "|      |";
 }
+void l(array<string, 6>& s) {
+    s[0] += "|| ";
+    s[1] += "|| ";
+    s[2] += "|| ";
+    s[3] += "|| ";
+    s[4] += "|| ";
+    s[5] += "|| ";
+}
 void k(array<string, 6> &s) {
     s[0] += "|     ";
     s[1] += "|  /  ";
@@ -127,6 +135,7 @@ int main()
     h(screen);
     i(screen);
     k(screen);
+    l(screen);
     n(screen);
     q(screen);
     t(screen);
