@@ -58,6 +58,14 @@ void t(array<string, 6> &s) {
     s[4] += "  |     ";
     s[5] += "  \\___/ ";
 }
+void s(array<string, 6> &s) {
+    s[0] += "       ";
+    s[1] += " ____  ";
+    s[2] += "/    \\ ";
+    s[3] += "\\____  ";
+    s[4] += "     \\ ";
+    s[5] += "\\____/ ";
+}
 void r(array<string, 6>& s) {
     s[0] += "  ____";
     s[1] += "|/    ";
@@ -198,6 +206,7 @@ int main()
     p(screen);
     q(screen);
     r(screen);
+    s(screen);
     t(screen);
     u(screen);
     v(screen);
